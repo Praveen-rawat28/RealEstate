@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Estateapp.Data", "Estateapp.Data\Estateapp.Data.csproj", "{2361D9A8-5F47-43F5-B6E2-D18FF85CF73A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstateApp.web", "EstateApp.web\EstateApp.web.csproj", "{3991C871-9802-4CFE-89D9-B6A145F53312}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2361D9A8-5F47-43F5-B6E2-D18FF85CF73A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2361D9A8-5F47-43F5-B6E2-D18FF85CF73A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2361D9A8-5F47-43F5-B6E2-D18FF85CF73A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2361D9A8-5F47-43F5-B6E2-D18FF85CF73A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3991C871-9802-4CFE-89D9-B6A145F53312}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3991C871-9802-4CFE-89D9-B6A145F53312}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3991C871-9802-4CFE-89D9-B6A145F53312}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3991C871-9802-4CFE-89D9-B6A145F53312}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F263620C-BD68-44ED-A9A1-BCCAEFAF6A4D}
+	EndGlobalSection
+EndGlobal

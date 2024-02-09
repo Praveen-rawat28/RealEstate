@@ -1,4 +1,4 @@
-namespace EstateApp.Models;
+namespace EstateApp.web.Models;
 
 public class ErrorViewModel
 {
