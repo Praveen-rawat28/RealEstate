@@ -2,8 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <!-- <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable> -->
   </PropertyGroup>
-
+  <ItemGroup>
+  <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.1"/>
+  <PackageReference Include="Microsoft.AspNetCore.Identity.Design" Version="8.0.1">
+    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    <privateAssets>all</privateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.SqlServer" Version="8.0.1"/>
+     </ItemGroup>
 </Project>
